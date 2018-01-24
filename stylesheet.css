@@ -1,0 +1,15 @@
+#bar {
+    background-color: lightgray;
+    width: 100px;
+    height: 5000px;
+    position: absolute;
+    padding: 10px;
+    top: 12px;
+}
+
+table {
+    position: absolute;
+    left: 130px;
+    top: 10px;
+
+}
