@@ -91,6 +91,7 @@ app.controller("myCtrl", function($scope) {
                     $scope.gold += $scope.sellingfor
                     $scope.selling = 0;
                     $scope.stock[$scope.item.indexOf($scope.checkingstock)] = Number($scope.stock[$scope.item.indexOf($scope.checkingstock)])-1
+                    $scope.checkingstock = "";
                     $scope.done();
                     }
                     else
